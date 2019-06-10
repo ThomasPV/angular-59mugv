@@ -1,0 +1,16 @@
+<h2 class="text-center">{{ name }}</h2>
+<div class="row">
+   <div class="col-sm-2">
+   </div>
+  <div class="col-sm-8">
+<ngx-search [placeholder]="'Records'" [classes]="'form-control'" (change)="alertValue($event)"></ngx-search>
+  </div>
+
+</div>
+<div class="row">
+   <div class="col-sm-12">
+     <p class="text-center">{{SearchedKeyword}}</p>
+   </div>
+
+
+</div>
